@@ -6,3 +6,5 @@
 ::1 - - [12/Mar/2024:06:38:17 +0000] "GET /api/persons HTTP/1.1" 200 223 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 ::1 - - [12/Mar/2024:07:06:45 +0000] "GET /api/persons HTTP/1.1" 200 223 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 ::1 - - [12/Mar/2024:07:06:45 +0000] "GET /api/persons HTTP/1.1" 200 223 "http://localhost:5173/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+::1 - - [12/Mar/2024:07:11:21 +0000] "GET /api/persons HTTP/1.1" 200 223 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+::1 - - [12/Mar/2024:07:11:24 +0000] "GET /api/persons HTTP/1.1" 200 223 "http://localhost:3001/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
