@@ -4,11 +4,11 @@ const fs = require('fs')
 const path = require('path')
 const cors = require('cors')
 
-
-
 const app = express()
+
 app.use(cors())
 app.use(express.json())
+app.use(express.static('dist'))
 
 const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
 app.use(morgan('combined', { stream: accessLogStream }))
